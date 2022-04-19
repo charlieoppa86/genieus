@@ -70,7 +70,7 @@ flutter:
       fonts:
         - asset: fonts/AppleSDGothicNeoEB.ttf
   assets:
-    - assets/
+    - assets/logo_new.jpeg
 
   # To add assets to your application, add an assets section, like this:
   # assets:

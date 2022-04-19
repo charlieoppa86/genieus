@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:genieus_beta/pages/login/login.dart';
+import 'theme/font.dart';
+import 'theme/color.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -14,12 +17,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Center(
-        child: Text('야이씨 진짜 내가 만들고 만다'),
-      ),
-    );
+    return LoginPage();
   }
 }
-
